@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/Mobile Voxel Environments/[Ll]ibrary/
+/Mobile Voxel Environments/[Tt]emp/
+/Mobile Voxel Environments/[Oo]bj/
+/Mobile Voxel Environments/[Bb]uild/
+/Mobile Voxel Environments/[Bb]uilds/
+/Mobile Voxel Environments/[Ll]ogs/
+/Mobile Voxel Environments/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
