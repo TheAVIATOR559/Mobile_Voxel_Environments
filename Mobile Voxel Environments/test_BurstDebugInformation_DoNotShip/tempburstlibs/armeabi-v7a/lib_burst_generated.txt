@@ -159,10 +159,10 @@ Library: lib_burst_generated
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.Notifications.Android.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.AdaptivePerformance.Samsung.Android.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.XR.Management.dll
+--root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.Profiling.Core.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\UnityEngine.SpatialTracking.dll
---root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=D:\GitHub\Mobile_Voxel_Environments\Mobile Voxel Environments\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll

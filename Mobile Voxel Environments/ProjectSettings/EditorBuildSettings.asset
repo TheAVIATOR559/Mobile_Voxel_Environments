@@ -8,6 +8,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 0
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2958b83b0a4a0de4d978e503e1d85664
+  - enabled: 0
+    path: Assets/Scenes/Loading Desert.unity
+    guid: 16a8467100914824e9268f4faff93086
+  - enabled: 0
+    path: Assets/Scenes/Desert.unity
+    guid: 0ebf7fd610171994d8b821cad1f5de68
+  - enabled: 0
+    path: Assets/Scenes/Loading Forest.unity
+    guid: 5bcf29e4bc703df47a5fc11c307e5f7d
+  - enabled: 0
+    path: Assets/Scenes/Forest.unity
+    guid: 92cea705d418ea94393e67df13f083b4
+  - enabled: 0
+    path: Assets/Scenes/Loading Taiga.unity
+    guid: 8966d048756f6f4408487b64f0150726
+  - enabled: 0
+    path: Assets/Scenes/Taiga.unity
+    guid: 6fa93e577396e4046be5c29f08d8e07a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fe242f8435eb7a844b9b660a9a1eb08d,
       type: 2}

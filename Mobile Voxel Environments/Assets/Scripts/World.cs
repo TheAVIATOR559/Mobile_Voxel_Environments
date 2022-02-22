@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
 
 public class World : MonoBehaviour
 {
@@ -15,10 +16,14 @@ public class World : MonoBehaviour
 
     public Queue<VoxelMod> modifications = new Queue<VoxelMod>();
     [SerializeField] private List<Chunk> chunksToUpdate = new List<Chunk>();
+    [SerializeField] private Transform sessionOrigin;
 
     private void Awake()
     {
         biome.SetUpReferences(this);
+
+        gameObject.AddComponent<ARAnchor>();
+        transform.SetParent(sessionOrigin);
 
         RegenWorld();
     }

@@ -1,36 +1,18 @@
 {
     "m_SelectedDeviceId": "R5CRA1T6D4H",
     "m_SelectedPackage": {
-        "deviceId": "R5CRA1T6D4H",
-        "name": "com.JacobHowell.MobileVoxelEnvironments",
-        "processId": 13944,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "R5CRA1T6D4H",
-            "name": "com.JacobHowell.MobileVoxelEnvironments",
-            "processId": 22105,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CRA1T6D4H",
-            "name": "com.android.settings",
-            "processId": 25844,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CRA1T6D4H",
             "name": "com.sec.android.app.launcher",
             "processId": 5495,
             "exited": false
-        },
-        {
-            "deviceId": "R5CRA1T6D4H",
-            "name": "com.JacobHowell.MobileVoxelEnvironments",
-            "processId": 29244,
-            "exited": true
         },
         {
             "deviceId": "R5CRA1T6D4H",
@@ -54,7 +36,19 @@
             "deviceId": "R5CRA1T6D4H",
             "name": "com.JacobHowell.MobileVoxelEnvironments",
             "processId": 13944,
-            "exited": false
+            "exited": true
+        },
+        {
+            "deviceId": "R5CRA1T6D4H",
+            "name": "com.JacobHowell.MobileVoxelEnvironments",
+            "processId": 12728,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CRA1T6D4H",
+            "name": "com.JacobHowell.MobileVoxelEnvironments",
+            "processId": 17603,
+            "exited": true
         }
     ],
     "m_Tags": {
