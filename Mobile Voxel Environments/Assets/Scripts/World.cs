@@ -41,6 +41,8 @@ public class World : MonoBehaviour
 
         GenerateWorld();
 
+        RecenterChunks();
+
         transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
     }
 
@@ -194,5 +196,13 @@ public class World : MonoBehaviour
         }
 
         return (byte)BlockTypes.NULL;
+    }
+
+    private void RecenterChunks()
+    {
+        foreach(Chunk chunk in chunks)
+        {
+            chunk.Recenter();
+        }
     }
 }

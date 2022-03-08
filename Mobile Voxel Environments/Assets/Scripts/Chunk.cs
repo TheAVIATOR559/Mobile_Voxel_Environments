@@ -303,4 +303,9 @@ public class Chunk
 
         return voxelMap[xCheck, yCheck, zCheck];
     }
+
+    public void Recenter()
+    {
+        chunkObj.transform.position = new Vector3((coord.x - (VoxelData.WorldSizeInChunks / 2)) * VoxelData.ChunkWidth, 0, (coord.y - (VoxelData.WorldSizeInChunks / 2)) * VoxelData.ChunkWidth);
+    }
 }
