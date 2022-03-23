@@ -604,7 +604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.70000005, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.4588476, y: 1.4589844}
+  m_AnchoredPosition: {x: 1.4588623, y: 1.4589844}
   m_SizeDelta: {x: 2.9178, y: 2.918}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529442670
@@ -1573,13 +1573,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: An extremely low humidity and arid climate leading to very low annual rainfall
-    are the main characteristics of deserts. The lack of moisture in the environment
-    can lead to large temperature swings between day and night, resulting in sparse
-    vegetation(shrubs, deep-rooted trees, cacti) and nocturnal wildlife. Wildlife
-    may include insects, reptiles, and certain mammals like the fennec fox. Due to
-    the lack of vegetation, the landscape trends towards mesas, or buttes as well
-    as basins that eventually evaporate into playas or salt flats.
+  m_text: Cold northern forests with glacial history, shown as shallow valleys, narrow
+    to wide rivers, and shallow bogs(muskegs). Thick forests dominated almost exclusively
+    by evergreens(conifers) and few other plants(moss, lichen, and mushrooms) due
+    to the cold climate, permafrost, and shallow bedrock. Despite the relative lack
+    of flora, a wide variety of animals can be found such as migratory birds, small
+    animals(mostly rodents and hares), birds of prey, moose, deer, bears, and lynx.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1606,7 +1605,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.8
+  m_fontSize: 42.55
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1803,6 +1802,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8159528102179021096, guid: ab5cce326e733d34aa0082d8eb3106e3,
+        type: 3}
+      propertyPath: biome
+      value: 
+      objectReference: {fileID: 11400000, guid: 6351c84e134b8a54c9a0f889c8e11ca5,
+        type: 2}
     - target: {fileID: 8159528102179021097, guid: ab5cce326e733d34aa0082d8eb3106e3,
         type: 3}
       propertyPath: m_Name

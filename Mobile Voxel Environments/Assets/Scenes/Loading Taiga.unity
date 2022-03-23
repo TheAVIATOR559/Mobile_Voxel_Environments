@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e547c0962950aa24993aa5aedd320252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Taiga
+  sceneToLoad: Tiaga
   loadingBar: {fileID: 1187477196}
 --- !u!114 &55961488
 MonoBehaviour:
@@ -708,7 +708,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.2
+  m_fontSize: 62.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
