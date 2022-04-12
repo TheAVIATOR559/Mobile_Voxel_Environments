@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using TMPro;
 
 [RequireComponent(typeof(ARRaycastManager))]
 public class ARTapToPlaceObject : MonoBehaviour
@@ -11,6 +12,9 @@ public class ARTapToPlaceObject : MonoBehaviour
     private ARRaycastManager arRaycastManager;
 
     static List<ARRaycastHit> hits = new List<ARRaycastHit>();
+
+    //[SerializeField] TMP_Text test;
+    //[SerializeField] Camera camera;
 
     private void Awake()
     {
@@ -55,6 +59,7 @@ public class ARTapToPlaceObject : MonoBehaviour
             {
                 objToEnable.transform.position = hitPose.position;
             }
+            //test.text = (camera.transform.position.y - hitPose.position.y).ToString();
         }
 
         //if(Input.touchCount == 2)

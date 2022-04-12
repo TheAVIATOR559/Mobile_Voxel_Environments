@@ -906,7 +906,7 @@ MonoBehaviour:
   m_FocusMode: -1
   m_LightEstimationMode: -1
   m_AutoFocus: 1
-  m_LightEstimation: 0
+  m_LightEstimation: -1
   m_FacingDirection: 1
 --- !u!114 &1053564997
 MonoBehaviour:
@@ -1818,7 +1818,7 @@ PrefabInstance:
     - target: {fileID: 8159528102179021097, guid: ab5cce326e733d34aa0082d8eb3106e3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8159528102179021099, guid: ab5cce326e733d34aa0082d8eb3106e3,
         type: 3}

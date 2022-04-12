@@ -604,7 +604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.70000005, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.4588476, y: 1.4589844}
+  m_AnchoredPosition: {x: 1.4588623, y: 1.4589844}
   m_SizeDelta: {x: 2.9178, y: 2.918}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529442670
@@ -867,7 +867,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -906,7 +906,7 @@ MonoBehaviour:
   m_FocusMode: -1
   m_LightEstimationMode: -1
   m_AutoFocus: 1
-  m_LightEstimation: 0
+  m_LightEstimation: -1
   m_FacingDirection: 1
 --- !u!114 &1053564997
 MonoBehaviour:
@@ -1811,7 +1811,7 @@ PrefabInstance:
     - target: {fileID: 8159528102179021097, guid: ab5cce326e733d34aa0082d8eb3106e3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8159528102179021099, guid: ab5cce326e733d34aa0082d8eb3106e3,
         type: 3}

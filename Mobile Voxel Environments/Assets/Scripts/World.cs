@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class World : MonoBehaviour
 {
@@ -16,11 +17,25 @@ public class World : MonoBehaviour
     public Queue<VoxelMod> modifications = new Queue<VoxelMod>();
     [SerializeField] private List<Chunk> chunksToUpdate = new List<Chunk>();
 
-    private void Start()
+    //[SerializeField] private TMP_Text text;
+
+    //private void Update()
+    //{
+    //    text.text = transform.localScale.ToString();
+    //}
+
+    private void Awake()
     {
         biome.SetUpReferences(this);
 
         RegenWorld();
+
+        this.gameObject.SetActive(false);
+    }
+
+    private void Start()
+    {
+        
     }
 
     public void RegenWorld()
